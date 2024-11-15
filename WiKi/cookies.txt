@@ -1,0 +1,4 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+wp12183585.server-he.de	TRUE	/	FALSE	1999999999	db12183585-nwiki_mediawiki_session	juoj499rbf6tdt5ujmsje4jch89fgp3u
+

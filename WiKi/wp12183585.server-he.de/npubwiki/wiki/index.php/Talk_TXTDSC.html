@@ -1,0 +1,448 @@
+
+<!DOCTYPE html>
+<html class="client-nojs" lang="en" dir="ltr">
+
+<!-- Mirrored from wp12183585.server-he.de/npubwiki/wiki/index.php/Talk:TXTDSC by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 15 Nov 2024 10:55:01 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+<meta charset="UTF-8"/>
+<title>Talk:TXTDSC - IHO Nautical Information Processing Working Group</title>
+<script>document.documentElement.className="client-js";RLCONF={"wgBreakFrames":!1,"wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgRequestId":"121a446d01026e97ef979870","wgCSPNonce":!1,"wgCanonicalNamespace":"Talk","wgCanonicalSpecialPageName":!1,"wgNamespaceNumber":1,"wgPageName":"Talk:TXTDSC","wgTitle":"TXTDSC","wgCurRevisionId":6690,"wgRevisionId":6690,"wgArticleId":282,"wgIsArticle":!0,"wgIsRedirect":!1,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":[],"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgRelevantPageName":"Talk:TXTDSC","wgRelevantArticleId":282,"wgIsProbablyEditable":!1,"wgRelevantPageIsProbablyEditable":!1,"wgRestrictionEdit":[],"wgRestrictionMove":[]};RLSTATE={"site.styles":"ready","noscript":"ready","user.styles":"ready","user":"ready",
+"user.options":"loading","skins.vector.styles.legacy":"ready"};RLPAGEMODULES=["site","mediawiki.page.startup","mediawiki.page.ready","skins.vector.legacy.js"];</script>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.loader.implement("user.options@1hzgi",function($,jQuery,require,module){/*@nomin*/mw.user.tokens.set({"patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});
+});});</script>
+<link rel="stylesheet" href="http://wp12183585.server-he.de/npubwiki/wiki/load.php?lang=en&amp;modules=skins.vector.styles.legacy&amp;only=styles&amp;skin=vector"/>
+<script async="" src="http://wp12183585.server-he.de/npubwiki/wiki/load.php?lang=en&amp;modules=startup&amp;only=scripts&amp;raw=1&amp;skin=vector"></script>
+<meta name="generator" content="MediaWiki 1.35.10"/>
+<link rel="shortcut icon" href="../NIPWGWikiIcon32.jpg"/>
+<link rel="search" type="application/opensearchdescription+xml" href="http://wp12183585.server-he.de/npubwiki/wiki/opensearch_desc.php" title="IHO Nautical Information Processing Working Group (en)"/>
+<link rel="EditURI" type="application/rsd+xml" href="http://wp12183585.server-he.de/npubwiki/wiki/api.php?action=rsd"/>
+<link rel="alternate" type="application/atom+xml" title="IHO Nautical Information Processing Working Group Atom feed" href="http://wp12183585.server-he.de/npubwiki/wiki/index.php?title=Special:RecentChanges&amp;feed=atom"/>
+<!--[if lt IE 9]><script src="/npubwiki/wiki/resources/lib/html5shiv/html5shiv.js"></script><![endif]-->
+</head>
+<body class="mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-1 ns-talk page-Talk_TXTDSC rootpage-Talk_TXTDSC skin-vector action-view skin-vector-legacy">
+<div id="mw-page-base" class="noprint"></div>
+<div id="mw-head-base" class="noprint"></div>
+<div id="content" class="mw-body" role="main">
+	<a id="top"></a>
+	<div id="siteNotice" class="mw-body-content"></div>
+	<div class="mw-indicators mw-body-content">
+	</div>
+	<h1 id="firstHeading" class="firstHeading" lang="en">Talk:TXTDSC</h1>
+	<div id="bodyContent" class="mw-body-content">
+		<div id="siteSub" class="noprint">From IHO Nautical Information Processing Working Group</div>
+		<div id="contentSub"></div>
+		<div id="contentSub2"></div>
+		
+		<div id="jump-to-nav"></div>
+		<a class="mw-jump-link" href="#mw-head">Jump to navigation</a>
+		<a class="mw-jump-link" href="#searchInput">Jump to search</a>
+		<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><div class="mw-parser-output"><p>taken from ProdSpec S-100 part 10 proposal
+</p><p>The product specification imposes special requirements on the content of files named in TXTDSC or NTXTDS or equivalent new attributes intended for formatted text. SNPWG requires such constraints because digital nautical publications need formatted text. Proposals suggest well-known schemas or DTDs whose specifications are publicly available. Examples are HTML 4.01 (“Strict”) or XHTML 1.0 (“Strict”). If the product specification follows the HTML/XHTML approach the use of those standards should be more restricted, saying the content should be valid HTML 4.01 only, without specified tags (&lt;a&gt;, &lt;img&gt;, etc.).
+</p><p>The specification for formatted text content should prohibit dependencies on another component of the data set or external data. These rules mean that scripts, Java, and external CSS stylesheets are prohibited, as are external links (web site addresses may be included, but may not be coded as HTML links). Images may not be used, or used only in strictly limited circumstances. The use of frames should be prohibited.
+</p>
+<pre><a href="User_Jens.html" title="User:Jens">jens</a> 07:18, 22 August 2008 (CEST)
+</pre>
+<p>After having had a discussion with the industrial technical experts of SNPWG yesterday I would like to share some more thought on formats of the files referenced by TXTDSC/NTXTDS.
+The ideas should be taken into consideration by TSMAD. We are not willing to press the standard in one or the other way. We only intend to ensure that the most options have been discussed.
+</p><p>i. The standard may define a list of acceptable file formats.
+The advantage is to allow *.txt as well and not forcing HOs to restructure their existing *.txt information into one particular file type like e.g. *.html/ *.xhtml/ *.htm ...
+No disadvantages spotted so far.
+</p><p>ii. The standard may permit the same information in different files with same file name but different extension; e.g. file abc.txt contains the same information like abc.xml.
+The advantage is to let the decision which file will be presented on an ECDIS screen to the ECDIS software. This will open a good competition market; which system provides the information in the most convenient way to the mariner.
+The disadvantage is how to ensure both content versions harmonized and how to convince HOs to provide the information in different formats. However, this might be a HOs or RENC work.
+</p>
+<pre>Barrie's reply 2008_08_22
+</pre>
+<p>An interesting debate. Much like S-57, S-100 does not prescribe formats for text files other than the character set codes described in the meta data component. The formats are defined in a product specification, and other than taking into consideration potential interoperability issues, is a free choice - txt, XHTML, XML etc. The only other consideration is to be careful if considering proprietary formats like PDF. These are unsuitable for use in ECDIS because the colour palette cannot be controlled for differing light conditions.
+</p><p>The multi-format concept could be mandated in the prod spec, forcing producers to distribute different formats. Obviously data size and maintenance would have to be considered as potential issues. 
+</p><p>The topic of mandation is very important considering the experience we have gained and lessons learned from the ENC world. Much of the inconsistency inherent in ENCs from different producers is due to a lack of clear encoding policies prescribed in the prod spec. This will be addressed in S-101.
+</p>
+<pre> David's comments 2008_08_22 
+</pre>
+<p>Hi John, Raphael and Jens,
+Many thanks for this contribution.
+I have been thinking about how an XHTML, XML or GML file might be used and please forgive my technical ignorance.
+In the first case, would we need to use a style sheet, or could we operate without?  I noticed on page 10 of the enclosure that "external CSS style sheets are prohibited".
+Secondly it seemed to me, that if we were using XML the data would be tagged and so it was possible that an XML file could be used to provide information on a number of subjects and, if we used GML, it could be for one particular geometry.  I am thinking here about simple point features like DgpsStation and much more complex features like a port, or a waterway which contain information on multiple very different subjects. 
+And I then have a further thought, really for John and Raphael. Would there be advantages in referencing the same GML file from a number of different features and expecting an ECDIS or ECS to only return the bit of information requested, preferably in a nicely formatted or structured layout, with relevant and sensible headings, indentation and use of bold, italics, colour and perhaps hyperlinks?
+Am I in the land of the fairies? 
+</p>
+<pre>  Raphael 2008_08_25 reply to Barrie
+</pre>
+<p>Thanks for your comments.  I agree about PDF, and of course the same
+argument would apply to any format that cannot have different palettes
+applied to its portrayal.  Similar arguments might apply to Microsoft
+Word, though it might be possible to devise different styles for
+different conditions for MS Word, it seems too much effort for the
+benefit, for style designers as well as implementors.  So it may be
+simpler to restrict the list of acceptable formats to text, HTML,
+XHTML, and XML-based formats.
+</p><p>Concerning mandation - My belief is that marked-up text (HTML, XML,
+etc.) would be needed only for relatively complex text content, and
+some (much?) of the existing content of TXTDSC/NTXTDS files should do
+as well in its current form (i.e., plain text).  HTML/XML text would
+also need more processing than plain text. So mandating multiple
+formats *everywhere* might be objected to by both HOs and ECDIS
+manufacturers on the grounds of development and conversion effort and
+system performance.  One compromise might be to mandate (or
+recommend?)  HTML/XML only for more complex content (such as lists and
+tables).
+</p>
+<pre>  Raphael 2008_08_25 reply to David
+</pre>
+<p>Thanks for your comments. I will try to answer your questions below.
+</p><p>Stylesheets:  We were focusing on "external" in the phrase you quote,
+defining "external" as "not located on the display system".  The
+system could operate with or without stylesheets supplied by IHO (if
+there is no stylesheet supplied as part of the data set, there are
+still the portrayal rules, and manufacturers could write their own
+style sheets as necessary provided they obey the portrayal rules).
+IHO needs to be careful about writing stylesheets, because of the
+possible variety of media, display sizes and resolutions.  At the
+least, stylesheets supplied by IHO should be accompanied by
+information specifying the conditions they are intended for (e.g.,
+ECDIS, Display size X" to Y", resolution M X N, etc.).
+</p><p>Concerning the other two questions, yes, it would be possible to use a
+single XML file to provide information about different subjects and
+different geometry.  I think it should make maintenance easier to have
+one or a few such files in a dataset instead of lots of TXTDSC/NTXTDS
+files. It would, of course, require new functionality in software for
+editing charts and processing ENCs and also a new or updated attribute
+definition.
+</p><p>PS: Hyperlinks - we thought of prohibiting them on the grounds of
+security and possible inaccessibility (as for stylesheets, I was
+thinking of hyperlinks pointing outside the local ECDIS system,
+hyperlinks to resources on the local system should be OK). If someone
+has thought of a solution to the safety and performance issues of
+off-system resources, I would be happy to know it.
+</p>
+<pre> David 2008_08_26 reply to Raphael
+</pre>
+<p>Dear Raphael,
+Many thanks for these replies.
+Thank you for highlighting the ambiguity in the word "external".  I had focussed on the word "prohibited".  I now see that we are actually talking about concentric rings of prohibition.   So if we can ship style sheets with the data or if they are part of, or defined in, the product specification, that's good.  I have not thought about whether they need to be universal or mandated by IHO. We may need to tie this down but in general I would prefer to 'prohibit' less and 'allow' more.  
+In my thinking I was not expecting an ECDIS to be able to go on-line so I was not expecting the style sheet to be somewhere else other than on the ECDIS or ECS. 
+When I wrote about hyperlinks I was thinking more about cross-references to other bits of the data-set, although we are also increasingly adding www addresses into publications.  So, I would expect customers who are not constrained by the ECDIS security rules to be able to take advantage of these addresses and for these to act as hyperlinks. 
+</p>
+<pre>  Raphael 2008_08_27 reply to David
+</pre>
+<p>You are very welcome. I think we have converged over the stylesheets
+issue, in envisaging that stylesheets needed for ECDIS or ECS are
+shipped with the data?
+</p><p>On the question of whether stylesheets should be universal or mandated
+by IHO, I cannot just now think of a compelling reason for SNPWG/TSMAD
+to write universal or mandatory stylesheets.  I believe the Colours
+and Symbols rules in S52 will continue in effect for S-10x systems?
+If so, manufacturers can write their own stylesheets based on the S52
+rules and the characteristics of their displays.
+</p><p>For hyperlinks and other methods of including content, what concerns
+me most is the possibility of an off-system dependency for critical
+information such as government regulations. There may also be a
+possible performance penalty because of slow Internet connections.
+</p><p>You may have noticed that the draft also prohibited scripts, Java, and
+frames. This was to make it less complicated for developers.  I am
+thinking of datasets being processed and displayed by a variety of
+systems, and it is possible that the content might be processed by
+software that is not a Web browser (even an ECDIS might do this).  Of
+course, the final decision about what to propose for all these things
+is up to you and SNPWG.
+</p><p>John also pointed out to me that these techniques (e.g., stylesheet
+files, XML file with information on multiple subjects, etc.) would
+imply revising the specifications for the structure of the dataset.
+</p>
+<pre> David 2008_08_27 reply to Raphael
+</pre>
+<p>Dear Raphael,
+I agree that one way ahead could be, as you say, to ship style sheets
+with the data.
+I have also understood John's point that referencing an XML file with
+multiple subjects is a radical departure from the S-57 / S-100 style
+data structure; and I suspect that that would be way too far out for
+many. 
+I would like to have a discussion on this point to try to understand any
+possible benefits.  At the moment I have no feel for this.
+And thank you for the comments about going on line and the possibility
+for software to try and process content. 
+</p><p><br />
+</p>
+<pre>  Barrie to all regarding portrayal
+</pre>
+<p>Just a little background information from a S-100 perspective. The new
+exchange catalogue will add numerous formats permitted during data
+exchange including stylesheets. In terms of ECDIS we are looking to give
+more freedom to the OEM, particularly in the area of portrayal which
+gives more opportunity for differentiation. Of course this can be
+controlled much like the concept of the S-Button approach whereby ENCs
+can be portrayed by design of the OEM, but default to a standard display
+when required e.g. for pilots.
+Whilst on the subject of portrayal, it is still unclear if and how
+portrayal will be handled in S-100. There will be a register interface
+much like the feature data dictionaries for symbols and rules. It may
+well be that S-52 remains as the bespoke portrayal instrument for ECDIS,
+maintained by CSMWG, and other requirements dealt with on an individual
+basis.
+</p>
+<h2><span class="mw-headline" id="TSMAD_discussions_on_text_attributes">TSMAD discussions on text attributes</span></h2>
+<p>--<a href="User_Rmm.html" title="User:Rmm">raphael</a> 16:10, 10 February 2012 (UTC): There is a proposal before TSMAD for modeling OBJNAM, INFORM, and <a href="TXTDSC.html" title="TXTDSC">TXTDSC</a>. I have uploaded a file to the Wiki (<a href="File_Text_attributes.html" title="File:Text attributes.pdf">File:Text attributes.pdf</a>).
+</p><p><a href="User_Jens.html" title="User:Jens">jens</a> 17:35, 10 February 2012 (UTC) Thanks Raphael. Actually the file contains only the model for OBJNAM. Are the models for INFORM and TXTDCS identic?
+</p><p><a href="User_Rmm.html" title="User:Rmm">raphael</a> 20:51, 10 February 2012 (UTC): It has information, textualDescription, and name all as complex attributes.
+</p><p><a href="User_Jens.html" title="User:Jens">jens</a> 10:39, 11 February 2012 (UTC) oops, I was blind when reading the diagram. Sorry for that.
+</p>
+<!-- 
+NewPP limit report
+Cached time: 20241115103527
+Cache expiry: 86400
+Dynamic content: false
+Complications: []
+CPU time usage: 0.062 seconds
+Real time usage: 0.071 seconds
+Preprocessor visited node count: 4/1000000
+Post‐expand include size: 0/2097152 bytes
+Template argument size: 0/2097152 bytes
+Highest expansion depth: 2/40
+Expensive parser function count: 0/100
+Unstrip recursion depth: 0/20
+Unstrip post‐expand size: 0/5000000 bytes
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%    0.000      1 -total
+-->
+
+<!-- Saved in parser cache with key db12183585?hnwiki-mediawiki:pcache:idhash:282-0!canonical and timestamp 20241115103527 and revision id 6690
+ -->
+</div></div><div class="printfooter">Retrieved from "<a dir="ltr" href="http://wp12183585.server-he.de/npubwiki/wiki/index.php?title=Talk:TXTDSC&amp;oldid=6690">http://wp12183585.server-he.de/npubwiki/wiki/index.php?title=Talk:TXTDSC&amp;oldid=6690</a>"</div>
+		<div id="catlinks" class="catlinks catlinks-allhidden" data-mw="interface"></div>
+	</div>
+</div>
+
+<div id="mw-navigation">
+	<h2>Navigation menu</h2>
+	<div id="mw-head">
+		<!-- Please do not use role attribute as CSS selector, it is deprecated. -->
+<nav id="p-personal" class="vector-menu" aria-labelledby="p-personal-label" role="navigation" 
+	 >
+	<h3 id="p-personal-label">
+		<span>Personal tools</span>
+	</h3>
+	<!-- Please do not use the .body class, it is deprecated. -->
+	<div class="body vector-menu-content">
+		<!-- Please do not use the .menu class, it is deprecated. -->
+		<ul class="vector-menu-content-list"><li id="pt-login"><a href="http://wp12183585.server-he.de/npubwiki/wiki/index.php?title=Special:UserLogin&amp;returnto=Talk%3ATXTDSC" title="You are encouraged to log in; however, it is not mandatory [o]" accesskey="o">Log in</a></li></ul>
+		
+	</div>
+</nav>
+
+
+		<div id="left-navigation">
+			<!-- Please do not use role attribute as CSS selector, it is deprecated. -->
+<nav id="p-namespaces" class="vector-menu vector-menu-tabs vectorTabs" aria-labelledby="p-namespaces-label" role="navigation" 
+	 >
+	<h3 id="p-namespaces-label">
+		<span>Namespaces</span>
+	</h3>
+	<!-- Please do not use the .body class, it is deprecated. -->
+	<div class="body vector-menu-content">
+		<!-- Please do not use the .menu class, it is deprecated. -->
+		<ul class="vector-menu-content-list"><li id="ca-nstab-main"><a href="TXTDSC.html" title="View the content page [c]" accesskey="c">Page</a></li><li id="ca-talk" class="selected"><a href="Talk_TXTDSC.html" rel="discussion" title="Discussion about the content page [t]" accesskey="t">Discussion</a></li></ul>
+		
+	</div>
+</nav>
+
+
+			<!-- Please do not use role attribute as CSS selector, it is deprecated. -->
+<nav id="p-variants" class="vector-menu-empty emptyPortlet vector-menu vector-menu-dropdown vectorMenu" aria-labelledby="p-variants-label" role="navigation" 
+	 >
+	<input type="checkbox" class="vector-menu-checkbox vectorMenuCheckbox" aria-labelledby="p-variants-label" />
+	<h3 id="p-variants-label">
+		<span>Variants</span>
+	</h3>
+	<!-- Please do not use the .body class, it is deprecated. -->
+	<div class="body vector-menu-content">
+		<!-- Please do not use the .menu class, it is deprecated. -->
+		<ul class="menu vector-menu-content-list"></ul>
+		
+	</div>
+</nav>
+
+
+		</div>
+		<div id="right-navigation">
+			<!-- Please do not use role attribute as CSS selector, it is deprecated. -->
+<nav id="p-views" class="vector-menu vector-menu-tabs vectorTabs" aria-labelledby="p-views-label" role="navigation" 
+	 >
+	<h3 id="p-views-label">
+		<span>Views</span>
+	</h3>
+	<!-- Please do not use the .body class, it is deprecated. -->
+	<div class="body vector-menu-content">
+		<!-- Please do not use the .menu class, it is deprecated. -->
+		<ul class="vector-menu-content-list"><li id="ca-view" class="collapsible selected"><a href="Talk_TXTDSC.html">Read</a></li><li id="ca-viewsource" class="collapsible"><a href="http://wp12183585.server-he.de/npubwiki/wiki/index.php?title=Talk:TXTDSC&amp;action=edit" title="This page is protected.&#10;You can view its source [e]" accesskey="e">View source</a></li><li id="ca-history" class="collapsible"><a href="http://wp12183585.server-he.de/npubwiki/wiki/index.php?title=Talk:TXTDSC&amp;action=history" title="Past revisions of this page [h]" accesskey="h">View history</a></li></ul>
+		
+	</div>
+</nav>
+
+
+			<!-- Please do not use role attribute as CSS selector, it is deprecated. -->
+<nav id="p-cactions" class="vector-menu-empty emptyPortlet vector-menu vector-menu-dropdown vectorMenu" aria-labelledby="p-cactions-label" role="navigation" 
+	 >
+	<input type="checkbox" class="vector-menu-checkbox vectorMenuCheckbox" aria-labelledby="p-cactions-label" />
+	<h3 id="p-cactions-label">
+		<span>More</span>
+	</h3>
+	<!-- Please do not use the .body class, it is deprecated. -->
+	<div class="body vector-menu-content">
+		<!-- Please do not use the .menu class, it is deprecated. -->
+		<ul class="menu vector-menu-content-list"></ul>
+		
+	</div>
+</nav>
+
+
+			<div id="p-search" role="search">
+	<h3 >
+		<label for="searchInput">Search</label>
+	</h3>
+	<form action="http://wp12183585.server-he.de/npubwiki/wiki/index.php" id="searchform">
+		<div id="simpleSearch">
+			<input type="search" name="search" placeholder="Search IHO Nautical Information Processing Working Group" title="Search IHO Nautical Information Processing Working Group [f]" accesskey="f" id="searchInput"/>
+			<input type="hidden" name="title" value="Special:Search">
+			<input type="submit" name="fulltext" value="Search" title="Search the pages for this text" id="mw-searchButton" class="searchButton mw-fallbackSearchButton"/>
+			<input type="submit" name="go" value="Go" title="Go to a page with this exact name if it exists" id="searchButton" class="searchButton"/>
+		</div>
+	</form>
+</div>
+
+		</div>
+	</div>
+	
+<div id="mw-panel">
+	<div id="p-logo" role="banner">
+		<a  title="Visit the main page" class="mw-wiki-logo" href="Main_Page.html"></a>
+	</div>
+	<!-- Please do not use role attribute as CSS selector, it is deprecated. -->
+<nav id="p-Navigation" class="vector-menu vector-menu-portal portal portal-first" aria-labelledby="p-Navigation-label" role="navigation" 
+	 >
+	<h3 id="p-Navigation-label">
+		<span>Navigation</span>
+	</h3>
+	<!-- Please do not use the .body class, it is deprecated. -->
+	<div class="body vector-menu-content">
+		<!-- Please do not use the .menu class, it is deprecated. -->
+		<ul class="vector-menu-content-list"><li id="n-Main-Page"><a href="Main_Page.html">Main Page</a></li><li id="n-Test-Data-Samples"><a href="SNPWG6.html">Test Data Samples</a></li><li id="n-FCD"><a href="SNPWG.html">FCD</a></li><li id="n-ProdSpec.2FUML"><a href="SNPWG2.html">ProdSpec/UML</a></li><li id="n-Confidence-of-NautInf"><a href="SNPWG5.html">Confidence of NautInf</a></li><li id="n-XML-of-NtM-chrt-corr"><a href="NtM_Chart-correction_XML.html">XML of NtM chrt corr</a></li><li id="n-Hrb-Infrastructure"><a href="NIPWG_S-1xx_hrb_infrstrctr.html">Hrb Infrastructure</a></li><li id="n-Envrm-Conditions"><a href="NIPWG_S-126_envrm_cndtn.html">Envrm Conditions</a></li><li id="n-SD-Gap-Analysis"><a href="SDs/S-100_Gap_Analysis.html">SD Gap Analysis</a></li><li id="n-legacy-NIPWG-entry"><a href="Legacy_NIPWG_entry_site.html">legacy NIPWG entry</a></li></ul>
+		
+	</div>
+</nav>
+
+
+	<!-- Please do not use role attribute as CSS selector, it is deprecated. -->
+<nav id="p-Supplementary information" class="vector-menu-empty emptyPortlet vector-menu vector-menu-portal portal" aria-labelledby="p-Supplementary information-label" role="navigation" 
+	 >
+	<h3 id="p-Supplementary information-label">
+		<span>Supplementary information</span>
+	</h3>
+	<!-- Please do not use the .body class, it is deprecated. -->
+	<div class="body vector-menu-content">
+		<!-- Please do not use the .menu class, it is deprecated. -->
+		<ul class="vector-menu-content-list"></ul>
+		
+	</div>
+</nav>
+
+<!-- Please do not use role attribute as CSS selector, it is deprecated. -->
+<nav id="p-Recent Changes" class="vector-menu vector-menu-portal portal" aria-labelledby="p-Recent Changes-label" role="navigation" 
+	 >
+	<h3 id="p-Recent Changes-label">
+		<span>Recent Changes</span>
+	</h3>
+	<!-- Please do not use the .body class, it is deprecated. -->
+	<div class="body vector-menu-content">
+		<!-- Please do not use the .menu class, it is deprecated. -->
+		<ul class="vector-menu-content-list"><li id="n-Recent-changes"><a href="Special_RecentChanges.html">Recent changes</a></li></ul>
+		
+	</div>
+</nav>
+
+<!-- Please do not use role attribute as CSS selector, it is deprecated. -->
+<nav id="p-Help" class="vector-menu vector-menu-portal portal" aria-labelledby="p-Help-label" role="navigation" 
+	 >
+	<h3 id="p-Help-label">
+		<span>Help</span>
+	</h3>
+	<!-- Please do not use the .body class, it is deprecated. -->
+	<div class="body vector-menu-content">
+		<!-- Please do not use the .menu class, it is deprecated. -->
+		<ul class="vector-menu-content-list"><li id="n-Site"><a href="Help_Contents.html">Site</a></li><li id="n-General"><a href="https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Contents">General</a></li></ul>
+		
+	</div>
+</nav>
+
+<!-- Please do not use role attribute as CSS selector, it is deprecated. -->
+<nav id="p-Support" class="vector-menu vector-menu-portal portal" aria-labelledby="p-Support-label" role="navigation" 
+	 >
+	<h3 id="p-Support-label">
+		<span>Support</span>
+	</h3>
+	<!-- Please do not use the .body class, it is deprecated. -->
+	<div class="body vector-menu-content">
+		<!-- Please do not use the .menu class, it is deprecated. -->
+		<ul class="vector-menu-content-list"><li id="n-sitesupport"><a href="Sitesupport-url.html">sitesupport</a></li></ul>
+		
+	</div>
+</nav>
+
+<!-- Please do not use role attribute as CSS selector, it is deprecated. -->
+<nav id="p-Sandbox" class="vector-menu vector-menu-portal portal" aria-labelledby="p-Sandbox-label" role="navigation" 
+	 >
+	<h3 id="p-Sandbox-label">
+		<span>Sandbox</span>
+	</h3>
+	<!-- Please do not use the .body class, it is deprecated. -->
+	<div class="body vector-menu-content">
+		<!-- Please do not use the .menu class, it is deprecated. -->
+		<ul class="vector-menu-content-list"><li id="n-Sandbox"><a href="Sandbox.html">Sandbox</a></li></ul>
+		
+	</div>
+</nav>
+
+<!-- Please do not use role attribute as CSS selector, it is deprecated. -->
+<nav id="p-tb" class="vector-menu vector-menu-portal portal" aria-labelledby="p-tb-label" role="navigation" 
+	 >
+	<h3 id="p-tb-label">
+		<span>Tools</span>
+	</h3>
+	<!-- Please do not use the .body class, it is deprecated. -->
+	<div class="body vector-menu-content">
+		<!-- Please do not use the .menu class, it is deprecated. -->
+		<ul class="vector-menu-content-list"><li id="t-whatlinkshere"><a href="Special_WhatLinksHere/Talk_TXTDSC.html" title="A list of all wiki pages that link here [j]" accesskey="j">What links here</a></li><li id="t-recentchangeslinked"><a href="Special_RecentChangesLinked/Talk_TXTDSC.html" rel="nofollow" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li><li id="t-specialpages"><a href="Special_SpecialPages.html" title="A list of all special pages [q]" accesskey="q">Special pages</a></li><li id="t-print"><a href="javascript:print();" rel="alternate" title="Printable version of this page [p]" accesskey="p">Printable version</a></li><li id="t-permalink"><a href="http://wp12183585.server-he.de/npubwiki/wiki/index.php?title=Talk:TXTDSC&amp;oldid=6690" title="Permanent link to this revision of the page">Permanent link</a></li><li id="t-info"><a href="http://wp12183585.server-he.de/npubwiki/wiki/index.php?title=Talk:TXTDSC&amp;action=info" title="More information about this page">Page information</a></li></ul>
+		
+	</div>
+</nav>
+
+
+	
+</div>
+
+</div>
+
+<footer id="footer" class="mw-footer" role="contentinfo" >
+	<ul id="footer-info" >
+		<li id="footer-info-lastmod"> This page was last edited on 11 February 2012, at 11:39.</li>
+	</ul>
+	<ul id="footer-places" >
+		<li id="footer-places-privacy"><a href="IHO_Nautical_Information_Processing_Working_Group_Privacy_policy.html" title="IHO Nautical Information Processing Working Group:Privacy policy">Privacy policy</a></li>
+		<li id="footer-places-about"><a href="IHO_Nautical_Information_Processing_Working_Group_About.html" title="IHO Nautical Information Processing Working Group:About">About IHO Nautical Information Processing Working Group</a></li>
+		<li id="footer-places-disclaimer"><a href="IHO_Nautical_Information_Processing_Working_Group_General_disclaimer.html" title="IHO Nautical Information Processing Working Group:General disclaimer">Disclaimers</a></li>
+	</ul>
+	<ul id="footer-icons" class="noprint">
+		<li id="footer-poweredbyico"><a href="https://www.mediawiki.org/"><img src="../resources/assets/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" srcset="/npubwiki/wiki/resources/assets/poweredby_mediawiki_132x47.png 1.5x, /npubwiki/wiki/resources/assets/poweredby_mediawiki_176x62.png 2x" width="88" height="31" loading="lazy"/></a></li>
+	</ul>
+	<div style="clear: both;"></div>
+</footer>
+
+
+
+<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.062","walltime":"0.071","ppvisitednodes":{"value":4,"limit":1000000},"postexpandincludesize":{"value":0,"limit":2097152},"templateargumentsize":{"value":0,"limit":2097152},"expansiondepth":{"value":2,"limit":40},"expensivefunctioncount":{"value":0,"limit":100},"unstrip-depth":{"value":0,"limit":20},"unstrip-size":{"value":0,"limit":5000000},"timingprofile":["100.00%    0.000      1 -total"]},"cachereport":{"timestamp":"20241115103527","ttl":86400,"transientcontent":false}}});mw.config.set({"wgBackendResponseTime":652});});</script></body>
+<!-- Mirrored from wp12183585.server-he.de/npubwiki/wiki/index.php/Talk:TXTDSC by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 15 Nov 2024 10:55:05 GMT -->
+</html>
